@@ -1,0 +1,8 @@
+{
+  "name": "Syrian Virtual University Information System",
+  "description": "SVUIS Student Portal - Syrian Virtual University Information System",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
