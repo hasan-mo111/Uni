@@ -635,262 +635,421 @@ export default function App() {
                       {leftPanelVisible ? (
                         <div style={{ width: '190px', display: 'block', margin: '0 auto' }} id="left_panel">
                           
-                          {/* Logged in User Box */}
+                          {/* Logged in User Box vs Unauthenticated Register Student + Login Box */}
                           {isLoggedIn ? (
-                            <table cellSpacing={0} cellPadding={0} width="100%" border={0} style={{ marginBottom: '10px', position: 'relative' }}>
-                              <tbody>
-                                <tr>
-                                  <td width="5">&nbsp;</td>
-                                  <td>
-                                    <table cellSpacing={0} cellPadding={0} width="100%" align="center" border={0}>
-                                      <tbody>
-                                        <tr>
-                                          <td>
-                                            <div style={{ position: 'relative', width: '85px', marginBottom: '4px' }}>
-                                              <img 
-                                                src={studentPhoto} 
-                                                alt="haydaraa alkadi" 
-                                                width="85" 
-                                                height="113" 
-                                                onClick={() => setPhotoModalOpen(true)}
-                                                style={{ width: '85px', height: '113px', objectFit: 'cover', border: '1px solid #CCCCCC', display: 'block', cursor: 'pointer' }}
-                                                referrerPolicy="no-referrer"
-                                                title="أنقر لتكبير الصورة الشخصية"
-                                              />
-                                            </div>
-                                            <span className="smenu" style={{ color: '#3d7ab8', fontWeight: 'bold' }}>Welcome: {isAdmin ? 'Admin User' : 'haydaraa alkadi'}</span><br />
-                                            <div id="chng_t_d" style={{ paddingTop: '2px' }}>
-                                              <table cellPadding={0} cellSpacing={1} border={0} width="100%">
-                                                <tbody>
-                                                  <tr style={{ height: '16px' }}>
-                                                    <td style={{ color: '#555' }}>User Login: </td>
-                                                    <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066', fontWeight: 'bold' }}>{isAdmin ? 'admin' : 'haydaraa_116823'}</td>
-                                                  </tr>
-                                                  <tr style={{ height: '16px' }}>
-                                                    <td width="55" style={{ color: '#555' }}>Group: </td>
-                                                    <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066', fontWeight: 'bold' }}>{isAdmin ? 'Administrator' : 'Student'}</td>
-                                                  </tr>
-                                                  <tr style={{ height: '16px' }}>
-                                                    <td style={{ color: '#555' }}>Last Login: </td>
-                                                    <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066' }}>2026-09-14 15:31:37</td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td style={{ color: '#555' }}>Login IP: </td>
-                                                    <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066' }}>51.158.195.11</td>
-                                                  </tr>
-                                                  <tr style={{ height: '16px' }}>
-                                                    <td style={{ color: '#555' }}>Log out </td>
-                                                    <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066' }}>
-                                                      <a href="#logout" onClick={(e) => { e.preventDefault(); handleLogout(); }} style={{ color: '#FF0066', textDecoration: 'none', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center', gap: '3px' }}>
-                                                        <img src={exitIcon} alt="exit" style={{ width: '12px', height: '12px', display: 'inline-block' }} />
-                                                        exit from svuis
-                                                      </a>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </div>
-                                          </td>
-                                        </tr>
-                                      </tbody>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
+                            <>
+                              <table cellSpacing={0} cellPadding={0} width="100%" border={0} style={{ marginBottom: '10px', position: 'relative' }}>
+                                <tbody>
+                                  <tr>
+                                    <td width="5">&nbsp;</td>
+                                    <td>
+                                      <table cellSpacing={0} cellPadding={0} width="100%" align="center" border={0}>
+                                        <tbody>
+                                          <tr>
+                                            <td>
+                                              <div style={{ position: 'relative', width: '85px', marginBottom: '4px' }}>
+                                                <img 
+                                                  src={studentPhoto} 
+                                                  alt="haydaraa alkadi" 
+                                                  width="85" 
+                                                  height="113" 
+                                                  onClick={() => setPhotoModalOpen(true)}
+                                                  style={{ width: '85px', height: '113px', objectFit: 'cover', border: '1px solid #CCCCCC', display: 'block', cursor: 'pointer' }}
+                                                  referrerPolicy="no-referrer"
+                                                  title="أنقر لتكبير الصورة الشخصية"
+                                                />
+                                              </div>
+                                              <span className="smenu" style={{ color: '#3d7ab8', fontWeight: 'bold' }}>Welcome: {isAdmin ? 'Admin User' : 'haydaraa alkadi'}</span><br />
+                                              <div id="chng_t_d" style={{ paddingTop: '2px' }}>
+                                                <table cellPadding={0} cellSpacing={1} border={0} width="100%">
+                                                  <tbody>
+                                                    <tr style={{ height: '16px' }}>
+                                                      <td style={{ color: '#555' }}>User Login: </td>
+                                                      <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066', fontWeight: 'bold' }}>{isAdmin ? 'admin' : 'haydaraa_116823'}</td>
+                                                    </tr>
+                                                    <tr style={{ height: '16px' }}>
+                                                      <td width="55" style={{ color: '#555' }}>Group: </td>
+                                                      <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066', fontWeight: 'bold' }}>{isAdmin ? 'Administrator' : 'Student'}</td>
+                                                    </tr>
+                                                    <tr style={{ height: '16px' }}>
+                                                      <td style={{ color: '#555' }}>Last Login: </td>
+                                                      <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066' }}>2026-09-14 15:31:37</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td style={{ color: '#555' }}>Login IP: </td>
+                                                      <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066' }}>51.158.195.11</td>
+                                                    </tr>
+                                                    <tr style={{ height: '16px' }}>
+                                                      <td style={{ color: '#555' }}>Log out </td>
+                                                      <td style={{ paddingLeft: '5px', backgroundColor: '#F9F9F9', color: '#FF0066' }}>
+                                                        <a href="#logout" onClick={(e) => { e.preventDefault(); handleLogout(); }} style={{ color: '#FF0066', textDecoration: 'none', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center', gap: '3px' }}>
+                                                          <img src={exitIcon} alt="exit" style={{ width: '12px', height: '12px', display: 'inline-block' }} />
+                                                          exit from svuis
+                                                        </a>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+
+                              {/* Student User Guides Link */}
+                              <div style={{ padding: '3px 0 5px 2px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                <img src={infoIcon} alt="Guides" style={{ width: '13px', height: '13px', display: 'inline-block' }} />
+                                <a href="#guides" onClick={(e) => { e.preventDefault(); setActiveTab('profileP'); }} style={{ color: '#3d7ab8', fontWeight: 'bold', textDecoration: 'none', fontSize: '11px' }}>
+                                  Student User Guides
+                                </a>
+                              </div>
+                            </>
                           ) : (
-                            /* Login Box Table for Unauthenticated */
-                            <table cellSpacing={0} cellPadding={0} width="94%" align="center" border={1} style={{ borderCollapse: 'collapse', border: '1px solid #C0C0C0', backgroundColor: '#F7F7F7', marginBottom: '10px' }}>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <div className="smenu" style={{ backgroundColor: '#EDEDED', padding: '4px', fontWeight: 'bold', color: '#3a618c' }}>
-                                      🔒 Login
-                                    </div>
-                                    <div style={{ padding: '6px' }}>
-                                      {errorMessage && (
-                                        <div style={{ color: 'red', backgroundColor: '#FFFFCC', border: '1px dotted red', padding: '4px', fontSize: '11px', marginBottom: '6px', textAlign: 'center', fontWeight: 'bold' }}>
-                                          {errorMessage}
-                                        </div>
-                                      )}
-                                      <form onSubmit={handleLogin}>
-                                        <table cellSpacing={0} cellPadding={0} width="100%" border={0}>
-                                          <tbody>
-                                            <tr>
-                                              <td align="right"><span style={{ color: '#3a618c' }}>username</span></td>
-                                              <td width="2"></td>
-                                              <td align="left">
-                                                <input 
-                                                  type="text" 
-                                                  name="user_name"
-                                                  value={username}
-                                                  onChange={(e) => handleUserChange(e.target.value)}
-                                                  className="login_input"
-                                                  style={{ fontSize: '11px', fontFamily: 'Verdana, Tahoma', width: '100px', height: '18px', padding: '0px', color: '#054B8B', border: '1px solid #7F9DB9' }}
-                                                />
-                                              </td>
-                                            </tr>
-                                            <tr style={{ height: '20px' }}>
-                                              <td align="right"><span style={{ color: '#3a618c' }}>password</span></td>
-                                              <td></td>
-                                              <td align="left">
-                                                <input 
-                                                  type="password" 
-                                                  name="user_pass"
-                                                  value={password}
-                                                  onChange={(e) => setPassword(e.target.value)}
-                                                  className="login_input"
-                                                  style={{ fontSize: '11px', fontFamily: 'Verdana, Tahoma', width: '100px', height: '18px', padding: '0px', color: '#054B8B', border: '1px solid #7F9DB9' }}
-                                                />
-                                              </td>
-                                            </tr>
-                                            {showOtp && (
-                                              <tr style={{ height: '20px' }} id="tr_otp">
-                                                <td align="right"><span style={{ color: 'red' }}>OTP</span></td>
-                                                <td></td>
+                            /* Unauthenticated View: Register Student Tabs FIRST, then Login Box */
+                            <>
+                              {/* Register Student Menu Block */}
+                              <table cellSpacing={0} cellPadding={0} width="100%" align="center" border={0} style={{ margin: '3px 0' }}>
+                                <tbody>
+                                  <tr>
+                                    <td style={{ cursor: 'pointer', width: '16px' }} onClick={() => setRegisterMenuOpen(!registerMenuOpen)}>
+                                      <span style={{ fontWeight: 'bold', fontSize: '12px', color: '#555', fontFamily: 'monospace' }}>{registerMenuOpen ? '➖' : '➕'}</span>
+                                    </td>
+                                    <td className="smenu" style={{ cursor: 'pointer', fontSize: '11px' }} onClick={() => setRegisterMenuOpen(!registerMenuOpen)}>
+                                      <b style={{ color: '#3d7ab8' }}>Register Student</b>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+
+                              {registerMenuOpen && (
+                                <div id="d3" style={{ display: 'block', paddingLeft: '12px', lineHeight: '18px' }}>
+                                  <table cellSpacing={0} cellPadding={0} width="100%" border={0}>
+                                    <tbody>
+                                      <tr>
+                                        <td width="10" style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#newReg" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Registration of the New student
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="https://svuonline.org" target="_blank" rel="noreferrer" style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Student Registration Guide
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="https://svuonline.org/ar/%D8%A7%D9%84%D8%AA%D9%82%D9%88%D9%85%20%D8%A7%D9%84%D8%B3%D9%8D%D9%88%D9%8A" target="_blank" rel="noreferrer" style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            SVU Calendar
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <div style={{ display: 'flex', alignItems: 'center', gap: '3px' }}>
+                                            <img src={infoIcon} alt="info" style={{ width: '12px', height: '12px', display: 'inline-block' }} />
+                                            <a href="https://svuonline.org" target="_blank" rel="noreferrer" style={{ color: '#ff6600', fontWeight: 'bold', textDecoration: 'none', fontSize: '11px' }}>
+                                              Training Center
+                                            </a>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#oldReg" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Registration for old students
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#placement" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Registration in Placement Test
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#payments" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            student's payments
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#average" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Student Current Average
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#payments" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            E-Payment
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#updateReg" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Update Student Registration
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#naqaba" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            upload Naqaba File
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#military" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            upload Military File
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#profileP" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Personal Profile
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>└</td>
+                                        <td>
+                                          <a className="smenublue" href="#profileS" onClick={(e) => { e.preventDefault(); }} style={{ color: '#6699cc', textDecoration: 'none' }}>
+                                            Studies Profile
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              )}
+
+                              <div style={{ height: '6px' }}></div>
+
+                              {/* Student User Guides Link */}
+                              <div style={{ padding: '3px 0 5px 2px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                <img src={infoIcon} alt="Guides" style={{ width: '13px', height: '13px', display: 'inline-block' }} />
+                                <a href="#guides" onClick={(e) => { e.preventDefault(); }} style={{ color: '#3d7ab8', fontWeight: 'bold', textDecoration: 'none', fontSize: '11px' }}>
+                                  Student User Guides
+                                </a>
+                              </div>
+
+                              <div style={{ height: '6px' }}></div>
+
+                              {/* Login Box Table for Unauthenticated */}
+                              <table cellSpacing={0} cellPadding={0} width="94%" align="center" border={1} style={{ borderCollapse: 'collapse', border: '1px solid #C0C0C0', backgroundColor: '#F7F7F7', marginBottom: '10px' }}>
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <div className="smenu" style={{ backgroundColor: '#EDEDED', padding: '4px', fontWeight: 'bold', color: '#3a618c' }}>
+                                        🔒 Login
+                                      </div>
+                                      <div style={{ padding: '6px' }}>
+                                        {errorMessage && (
+                                          <div style={{ color: 'red', backgroundColor: '#FFFFCC', border: '1px dotted red', padding: '4px', fontSize: '11px', marginBottom: '6px', textAlign: 'center', fontWeight: 'bold' }}>
+                                            {errorMessage}
+                                          </div>
+                                        )}
+                                        <form onSubmit={handleLogin}>
+                                          <table cellSpacing={0} cellPadding={0} width="100%" border={0}>
+                                            <tbody>
+                                              <tr>
+                                                <td align="right"><span style={{ color: '#3a618c' }}>username</span></td>
+                                                <td width="2"></td>
                                                 <td align="left">
                                                   <input 
-                                                    type="password" 
-                                                    name="user_otp"
-                                                    value={userOtp}
-                                                    onChange={(e) => setUserOtp(e.target.value)}
+                                                    type="text" 
+                                                    name="user_name"
+                                                    value={username}
+                                                    onChange={(e) => handleUserChange(e.target.value)}
                                                     className="login_input"
                                                     style={{ fontSize: '11px', fontFamily: 'Verdana, Tahoma', width: '100px', height: '18px', padding: '0px', color: '#054B8B', border: '1px solid #7F9DB9' }}
                                                   />
                                                 </td>
                                               </tr>
-                                            )}
-                                            <tr style={{ height: '22px' }}>
-                                              <td colSpan={3} style={{ padding: '4px 0', textAlign: 'center' }}>
-                                                <input 
-                                                  type="submit" 
-                                                  value="login" 
-                                                  className="btn1"
-                                                  style={{ fontSize: '10px', fontFamily: 'Verdana, Tahoma', backgroundColor: '#ffffff', border: '1px solid #7F9DB9', color: '#2A5C8B', padding: '2px 8px', cursor: 'pointer', fontWeight: 'bold' }}
-                                                />
-                                              </td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
-                                      </form>
-                                    </div>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          )}
-
-                          <div style={{ height: '6px' }}></div>
-
-                          {/* Student User Guides Link */}
-                          <div style={{ padding: '3px 0 5px 2px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                            <img src={infoIcon} alt="Guides" style={{ width: '13px', height: '13px', display: 'inline-block' }} />
-                            <a href="#guides" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('profileP'); }} style={{ color: '#3d7ab8', fontWeight: 'bold', textDecoration: 'none', fontSize: '11px' }}>
-                              Student User Guides
-                            </a>
-                          </div>
-
-                          {/* Register Student Menu */}
-                          <table cellSpacing={0} cellPadding={0} width="100%" align="center" border={0} style={{ margin: '3px 0' }}>
-                            <tbody>
-                              <tr>
-                                <td style={{ cursor: 'pointer', width: '16px' }} onClick={() => setRegisterMenuOpen(!registerMenuOpen)}>
-                                  <span style={{ fontWeight: 'bold', fontSize: '12px', color: '#555', fontFamily: 'monospace' }}>{registerMenuOpen ? '➖' : '➕'}</span>
-                                </td>
-                                <td className="smenu" style={{ cursor: 'pointer', fontSize: '11px' }} onClick={() => setRegisterMenuOpen(!registerMenuOpen)}>
-                                  <b style={{ color: '#3d7ab8' }}>Register Student</b>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-
-                          {registerMenuOpen && (
-                            <div id="d3" style={{ display: 'block', paddingLeft: '12px', lineHeight: '18px' }}>
-                              <table cellSpacing={0} cellPadding={0} width="100%" border={0}>
-                                <tbody>
-                                  <tr>
-                                    <td width="10" style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#oldReg" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('oldReg'); }} style={{ color: activeTab === 'oldReg' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        Registration for old students
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#placement" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('placement'); }} style={{ color: activeTab === 'placement' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        Registration in Placement Test
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#payments" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('payments'); }} style={{ color: activeTab === 'payments' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        student's payments
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#average" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('average'); }} style={{ color: activeTab === 'average' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        Student Current Average
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#payments" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('payments'); }} style={{ color: activeTab === 'payments' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        E-Payment
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#updateReg" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('updateReg'); }} style={{ color: activeTab === 'updateReg' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        Update Student Registration
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#naqaba" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('naqaba'); }} style={{ color: activeTab === 'naqaba' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        upload Naqaba File
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#military" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('military'); }} style={{ color: activeTab === 'military' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        upload Military File
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>├</td>
-                                    <td>
-                                      <a className="smenublue" href="#profileP" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('profileP'); }} style={{ color: activeTab === 'profileP' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        Personal Profile
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td style={{ color: '#999', fontSize: '10px' }}>└</td>
-                                    <td>
-                                      <a className="smenublue" href="#profileS" onClick={(e) => { e.preventDefault(); if(isLoggedIn) setActiveTab('profileS'); }} style={{ color: activeTab === 'profileS' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
-                                        Studies Profile
-                                      </a>
+                                              <tr style={{ height: '20px' }}>
+                                                <td align="right"><span style={{ color: '#3a618c' }}>password</span></td>
+                                                <td></td>
+                                                <td align="left">
+                                                  <input 
+                                                    type="password" 
+                                                    name="user_pass"
+                                                    value={password}
+                                                    onChange={(e) => setPassword(e.target.value)}
+                                                    className="login_input"
+                                                    style={{ fontSize: '11px', fontFamily: 'Verdana, Tahoma', width: '100px', height: '18px', padding: '0px', color: '#054B8B', border: '1px solid #7F9DB9' }}
+                                                  />
+                                                </td>
+                                              </tr>
+                                              {showOtp && (
+                                                <tr style={{ height: '20px' }} id="tr_otp">
+                                                  <td align="right"><span style={{ color: 'red' }}>OTP</span></td>
+                                                  <td></td>
+                                                  <td align="left">
+                                                    <input 
+                                                      type="password" 
+                                                      name="user_otp"
+                                                      value={userOtp}
+                                                      onChange={(e) => setUserOtp(e.target.value)}
+                                                      className="login_input"
+                                                      style={{ fontSize: '11px', fontFamily: 'Verdana, Tahoma', width: '100px', height: '18px', padding: '0px', color: '#054B8B', border: '1px solid #7F9DB9' }}
+                                                    />
+                                                  </td>
+                                                </tr>
+                                              )}
+                                              <tr style={{ height: '22px' }}>
+                                                <td colSpan={3} style={{ padding: '4px 0', textAlign: 'center' }}>
+                                                  <input 
+                                                    type="submit" 
+                                                    value="login" 
+                                                    className="btn1"
+                                                    style={{ fontSize: '10px', fontFamily: 'Verdana, Tahoma', backgroundColor: '#ffffff', border: '1px solid #7F9DB9', color: '#2A5C8B', padding: '2px 8px', cursor: 'pointer', fontWeight: 'bold' }}
+                                                  />
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </form>
+                                      </div>
                                     </td>
                                   </tr>
                                 </tbody>
                               </table>
-                            </div>
+                            </>
+                          )}
+
+                          <div style={{ height: '6px' }}></div>
+
+                          {/* Register Student Menu Block for Authenticated */}
+                          {isLoggedIn && (
+                            <>
+                              <table cellSpacing={0} cellPadding={0} width="100%" align="center" border={0} style={{ margin: '3px 0' }}>
+                                <tbody>
+                                  <tr>
+                                    <td style={{ cursor: 'pointer', width: '16px' }} onClick={() => setRegisterMenuOpen(!registerMenuOpen)}>
+                                      <span style={{ fontWeight: 'bold', fontSize: '12px', color: '#555', fontFamily: 'monospace' }}>{registerMenuOpen ? '➖' : '➕'}</span>
+                                    </td>
+                                    <td className="smenu" style={{ cursor: 'pointer', fontSize: '11px' }} onClick={() => setRegisterMenuOpen(!registerMenuOpen)}>
+                                      <b style={{ color: '#3d7ab8' }}>Register Student</b>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+
+                              {registerMenuOpen && (
+                                <div id="d3" style={{ display: 'block', paddingLeft: '12px', lineHeight: '18px' }}>
+                                  <table cellSpacing={0} cellPadding={0} width="100%" border={0}>
+                                    <tbody>
+                                      <tr>
+                                        <td width="10" style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#oldReg" onClick={(e) => { e.preventDefault(); setActiveTab('oldReg'); }} style={{ color: activeTab === 'oldReg' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            Registration for old students
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#placement" onClick={(e) => { e.preventDefault(); setActiveTab('placement'); }} style={{ color: activeTab === 'placement' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            Registration in Placement Test
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#payments" onClick={(e) => { e.preventDefault(); setActiveTab('payments'); }} style={{ color: activeTab === 'payments' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            student's payments
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#average" onClick={(e) => { e.preventDefault(); setActiveTab('average'); }} style={{ color: activeTab === 'average' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            Student Current Average
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#payments" onClick={(e) => { e.preventDefault(); setActiveTab('payments'); }} style={{ color: activeTab === 'payments' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            E-Payment
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#updateReg" onClick={(e) => { e.preventDefault(); setActiveTab('updateReg'); }} style={{ color: activeTab === 'updateReg' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            Update Student Registration
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#naqaba" onClick={(e) => { e.preventDefault(); setActiveTab('naqaba'); }} style={{ color: activeTab === 'naqaba' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            upload Naqaba File
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#military" onClick={(e) => { e.preventDefault(); setActiveTab('military'); }} style={{ color: activeTab === 'military' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            upload Military File
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>├</td>
+                                        <td>
+                                          <a className="smenublue" href="#profileP" onClick={(e) => { e.preventDefault(); setActiveTab('profileP'); }} style={{ color: activeTab === 'profileP' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            Personal Profile
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style={{ color: '#999', fontSize: '10px' }}>└</td>
+                                        <td>
+                                          <a className="smenublue" href="#profileS" onClick={(e) => { e.preventDefault(); setActiveTab('profileS'); }} style={{ color: activeTab === 'profileS' ? '#DEAA5A' : '#6699cc', textDecoration: 'none' }}>
+                                            Studies Profile
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              )}
+                            </>
                           )}
 
                           {isLoggedIn && (
@@ -1070,22 +1229,24 @@ export default function App() {
                           <div style={{ height: '14px', backgroundImage: 'url(images/dotted_pixel_horizontal.gif)', width: '100%', margin: '10px 0' }}></div>
 
                           {/* Social Channel Banners */}
-                          <div style={{ textAlign: 'center', marginBottom: '10px' }}>
-                            <a href="#exams" onClick={(e) => { e.preventDefault(); setActiveTab('exams'); }} style={{ cursor: 'pointer', textDecoration: 'none' }}>
-                              <img 
-                                src={expertAssessment} 
-                                alt="EXams EXpert Assessment Management System" 
-                                style={{ border: 'none', maxWidth: '100%' }} 
-                                onError={(e) => {
-                                  e.currentTarget.style.display = 'none';
-                                  (e.currentTarget.nextSibling as HTMLElement).style.display = 'block';
-                                }}
-                              />
-                              <div style={{ display: 'none', backgroundColor: '#005a82', color: '#ffffff', padding: '6px 4px', fontWeight: 'bold', borderRadius: '3px', fontSize: '11px' }}>
-                                📑 EXpert Assessment
-                              </div>
-                            </a>
-                          </div>
+                          {isLoggedIn && (
+                            <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+                              <a href="#exams" onClick={(e) => { e.preventDefault(); setActiveTab('exams'); }} style={{ cursor: 'pointer', textDecoration: 'none' }}>
+                                <img 
+                                  src={expertAssessment} 
+                                  alt="EXams EXpert Assessment Management System" 
+                                  style={{ border: 'none', maxWidth: '100%' }} 
+                                  onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                    (e.currentTarget.nextSibling as HTMLElement).style.display = 'block';
+                                  }}
+                                />
+                                <div style={{ display: 'none', backgroundColor: '#005a82', color: '#ffffff', padding: '6px 4px', fontWeight: 'bold', borderRadius: '3px', fontSize: '11px' }}>
+                                  📑 EXpert Assessment
+                                </div>
+                              </a>
+                            </div>
+                          )}
 
                           <div style={{ textAlign: 'center', marginBottom: '10px' }}>
                             <a href="https://www.youtube.com/channel/UCJwPgp0tOp1ZqkzbmDvFSaw" target="_blank" rel="noreferrer" style={{ cursor: 'pointer', textDecoration: 'none' }}>
