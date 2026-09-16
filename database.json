@@ -1,0 +1,195 @@
+[
+  {
+    "term": "S25",
+    "year": "2025",
+    "countPE": 1,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C9_S25", "chr": "17.4", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private Criminal Law2", "code": "BL_CRI401_C5_S25", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "16", "total": "16", "code2": "CRI401", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Criminal Procedure 1", "code": "BL_CRP605_C13_S25", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "CRP605", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Procedure 2", "code": "BL_CIP601_C10_S25", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "CIP601", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private International Law 2", "code": "BL_PIL701_C13_S25", "chr": "19.4", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "20", "total": "20", "code2": "PIL701", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Execution Procedures", "code": "BL_CIV702_C8_S25", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "16", "total": "16", "code2": "CIV702", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Law 6", "code": "BL_CIV704_C4_S25", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "CIV704", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Juvenile Law", "code": "BL_JLE852_C6_S25", "chr": "19", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "43.2", "f": "63", "total": "63", "code2": "JLE852", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Money Laundering Law", "code": "BL_MLE853_C4_S25", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "MLE853", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Cyber Crime", "code": "BL_CybcE854_C2_S25", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "CybcE854", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "S24",
+    "year": "2024",
+    "countPE": 2,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C7_S24", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "26.8", "f": "41", "total": "41", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private Criminal Law2", "code": "BL_CRI401_C18_S24", "chr": "19", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "19", "total": "19", "code2": "CRI401", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Criminal Procedure 1", "code": "BL_CRP605_C6_S24", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "CRP605", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Procedure 2", "code": "BL_CIP601_C9_S24", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28", "f": "44", "total": "44", "code2": "CIP601", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private International Law 2", "code": "BL_PIL701_C3_S24", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "16", "total": "16", "code2": "PIL701", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Execution Procedures", "code": "BL_CIV702_C7_S24", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "13", "total": "13", "code2": "CIV702", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Law 6", "code": "BL_CIV704_C6_S24", "chr": "15", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "15", "total": "15", "code2": "CIV704", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Drugs law", "code": "BL_DLE851_C5_S24", "chr": "13.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "49.6", "f": "64", "total": "64", "code2": "DLE851", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Juvenile Law", "code": "BL_JLE852_C5_S24", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "16", "total": "16", "code2": "JLE852", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Money Laundering Law", "code": "BL_MLE853_C5_S24", "chr": "16.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "17", "total": "17", "code2": "MLE853", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Cyber Crime", "code": "BL_CybcE854_C4_S24", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "16", "total": "16", "code2": "CybcE854", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Commercial Arbitration", "code": "BL_B706_C7_S24", "chr": "18.8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "40", "f": "59", "total": "59", "code2": "B706", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "Helped" }
+    ]
+  },
+  {
+    "term": "F23",
+    "year": "2023",
+    "countPE": 4,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "Private Criminal Law2", "code": "BL_CRI401_C27_F23", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28", "f": "44", "total": "44", "code2": "CRI401", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Criminal Procedure 1", "code": "BL_CRP605_C16_F23", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "22.4", "f": "37", "total": "37", "code2": "CRP605", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Criminal Procedure 2", "code": "BL_CRP705_C2_F23", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "47.2", "f": "65", "total": "65", "code2": "CRP705", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Civil Law 5", "code": "BL_CIV604_C6_F23", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "52", "total": "52", "code2": "CIV604", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Public International Law- English 3", "code": "BL_INT603_C14_F23", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "33.6", "f": "51", "total": "51", "code2": "INT603", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Procedure 2", "code": "BL_CIP601_C7_F23", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "32.8", "f": "47", "total": "47", "code2": "CIP601", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private International Law 2", "code": "BL_PIL701_C14_F23", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "22.4", "f": "40", "total": "40", "code2": "PIL701", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Tax Law", "code": "BL_TAX801_C16_F23", "chr": "19.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "55", "total": "55", "code2": "TAX801", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "S23",
+    "year": "2023",
+    "countPE": 5,
+    "courses": [
+      { "status": "R", "fa": "P", "title": "English 2 -Criminal Law", "code": "BL_CL404_C13_S23", "chr": "17.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "33.6", "f": "52", "total": "52", "code2": "CL404", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Civil Law 4", "code": "BL_Civ504_C8_S23", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "48", "f": "61", "total": "61", "code2": "Civ504", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Civil Procedure 1", "code": "BL_CIP501_C13_S23", "chr": "12", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "37.6", "f": "50", "total": "50", "code2": "CIP501", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Personal Status Law 2", "code": "BL_FAM505_C15_S23", "chr": "12", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "38.4", "f": "51", "total": "51", "code2": "FAM505", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Criminal Procedure 1", "code": "BL_CRP605_C15_S23", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "20.8", "f": "38", "total": "38", "code2": "CRP605", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private International Law 2", "code": "BL_PIL701_C11_S23", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "14.4", "f": "32", "total": "32", "code2": "PIL701", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "English 4 -International Trade Law", "code": "BL_ICL703_C6_S23", "chr": "16.8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "30.4", "f": "48", "total": "48", "code2": "ICL703", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "Helped" },
+      { "status": "R", "fa": "F", "title": "Tax Law", "code": "BL_TAX801_C12_S23", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28.8", "f": "46", "total": "46", "code2": "TAX801", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "F22",
+    "year": "2022",
+    "countPE": 3,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C37_F22", "chr": "14.4", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "26", "f": "41", "total": "41", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Private Criminal Law 1", "code": "BL_CRI301_C9_F22", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "39.2", "f": "54", "total": "54", "code2": "CRI301", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private Criminal Law2", "code": "BL_CRI401_C18_F22", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "26.4", "f": "40", "total": "40", "code2": "CRI401", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Procedure 1", "code": "BL_CIP501_C9_F22", "chr": "8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "32.8", "f": "41", "total": "41", "code2": "CIP501", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Commercial Law 3 (Commercial Papers)", "code": "BL_CL503_C14_F22", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "36.8", "f": "51", "total": "51", "code2": "CL503", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Commercial Law 4 (Maritime and Air Law)", "code": "BL_ML606_C4_F22", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "41.6", "f": "56", "total": "56", "code2": "ML606", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private International Law 2", "code": "BL_PIL701_C12_F22", "chr": "17.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "18", "total": "18", "code2": "PIL701", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Tax Law", "code": "BL_TAX801_C4_F22", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28.8", "f": "43", "total": "43", "code2": "TAX801", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "S22",
+    "year": "2022",
+    "countPE": 1,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "Private Criminal Law 1", "code": "BL_CRI301_C20_S22", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "26.4", "f": "41", "total": "41", "code2": "CRI301", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private Criminal Law2", "code": "BL_CRI401_C2_S22", "chr": "9", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "14.4", "f": "24", "total": "24", "code2": "CRI401", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Procedure 1", "code": "BL_CIP501_C9_S22", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "25.6", "f": "39", "total": "39", "code2": "CIP501", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Commercial Law 3 (Commercial Papers)", "code": "BL_CL503_C11_S22", "chr": "19", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "27.2", "f": "47", "total": "47", "code2": "CL503", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Personal Status Law 2", "code": "BL_FAM505_C9_S22", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "29.6", "f": "47", "total": "47", "code2": "FAM505", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private International Law 2", "code": "BL_PIL701_C4_S22", "chr": "14.2", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28.8", "f": "43", "total": "43", "code2": "PIL701", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Tax Law", "code": "BL_TAX801_C7_S22", "chr": "12", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "25.6", "f": "38", "total": "38", "code2": "TAX801", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Islamic Doctrine", "code": "BL_ID803_C7_S22", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "30.4", "f": "48", "total": "48", "code2": "ID803", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "Helped" }
+    ]
+  },
+  {
+    "term": "F21",
+    "year": "2021",
+    "countPE": 3,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C28_F21", "chr": "17", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "20.8", "f": "38", "total": "38", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Private Criminal Law 1", "code": "BL_CRI301_C15_F21", "chr": "14.8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "27.2", "f": "42", "total": "42", "code2": "CRI301", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Commercial Law 2 (Company Law)", "code": "BL_COM402_C9_F21", "chr": "15", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "41.6", "f": "57", "total": "57", "code2": "COM402", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Procedure 1", "code": "BL_CIP501_C7_F21", "chr": "11", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "23.2", "f": "35", "total": "35", "code2": "CIP501", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Administrative Law 3", "code": "BL_ADM506_C4_F21", "chr": "12", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "38.4", "f": "51", "total": "51", "code2": "ADM506", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Private International Law 1", "code": "BL_PIL602_C7_F21", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "46.4", "f": "61", "total": "61", "code2": "PIL602", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Tax Law", "code": "BL_TAX801_C6_F21", "chr": "13.2", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "19.2", "f": "33", "total": "33", "code2": "TAX801", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Islamic Doctrine", "code": "BL_ID803_C7_F21", "chr": "14.4", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "19.2", "f": "34", "total": "34", "code2": "ID803", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "S21",
+    "year": "2021",
+    "countPE": 7,
+    "courses": [
+      { "status": "R", "fa": "P", "title": "Human Rights", "code": "BL_HUM201_C15_S21", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "49.6", "f": "68", "total": "68", "code2": "HUM201", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Public Criminal Law 2", "code": "BL_CRI202_C19_S21", "chr": "14.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "38.4", "f": "53", "total": "53", "code2": "CRI202", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C21_S21", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "30.4", "f": "44", "total": "44", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Civil Law 3", "code": "BL_CIV405_C6_S21", "chr": "16.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "38.4", "f": "55", "total": "55", "code2": "CIV405", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Commercial Law 1", "code": "BL_COM302_C8_S21", "chr": "19.8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "55", "total": "55", "code2": "COM302", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Cooperative Law", "code": "BL_COL403_C9_S21", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "38.4", "f": "55", "total": "55", "code2": "COL403", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Administrative Law 2", "code": "BL_ADM406_C2_S21", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "44.8", "f": "61", "total": "61", "code2": "ADM406", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Public Finance Law", "code": "BL_FL502_C15_S21", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "33.6", "f": "50", "total": "50", "code2": "FL502", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "F20",
+    "year": "2020",
+    "countPE": 3,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "Human Rights", "code": "BL_HUM201_C7_F20", "chr": "12", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "12", "total": "12", "code2": "HUM201", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Public Criminal Law 2", "code": "BL_CRI202_C6_F20", "chr": "10", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "27.2", "f": "38", "total": "38", "code2": "CRI202", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Commercial Law 1", "code": "BL_COM302_C11_F20", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "22.4", "f": "36", "total": "36", "code2": "COM302", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Administrative Law 1", "code": "BL_ADM303_C3_F20", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "40", "f": "53", "total": "53", "code2": "ADM303", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Cooperative Law", "code": "BL_COL403_C11_F20", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "33.6", "f": "47", "total": "47", "code2": "COL403", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Personal Status Law 2", "code": "BL_FAM505_C2_F20", "chr": "15", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "12.8", "f": "28", "total": "28", "code2": "FAM505", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Labor Law", "code": "BL_LL802_C3_F20", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "43.2", "f": "60", "total": "60", "code2": "LL802", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Civil Law 2", "code": "BL_CIV306_C3_F20", "chr": "15", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "37.6", "f": "53", "total": "53", "code2": "CIV306", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "S20",
+    "year": "2020",
+    "countPE": 3,
+    "courses": [
+      { "status": "R", "fa": "P", "title": "Introduction to Political Science", "code": "BL_POL204_C13_S20", "chr": "16.2", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "52", "total": "52", "code2": "POL204", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Human Rights", "code": "BL_HUM201_C5_S20", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28.8", "f": "45", "total": "45", "code2": "HUM201", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Public Criminal Law 2", "code": "BL_CRI202_C14_S20", "chr": "9.4", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "27.2", "f": "37", "total": "37", "code2": "CRI202", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C14_S20", "chr": "17.8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "20.8", "f": "39", "total": "39", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Commercial Law 1", "code": "BL_COM302_C8_S20", "chr": "16.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "30.4", "f": "47", "total": "47", "code2": "COM302", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Administrative Law 1", "code": "BL_ADM303_C8_S20", "chr": "15", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28.8", "f": "44", "total": "44", "code2": "ADM303", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Personal Status Law 1", "code": "BL_FAM304_C7_S20", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "52", "total": "52", "code2": "FAM304", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "International Economic Law", "code": "BL_EIL305_C8_S20", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "57.6", "f": "72", "total": "72", "code2": "EIL305", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "F19",
+    "year": "2019",
+    "countPE": 3,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "Introduction to Political Science", "code": "BL_POL204_C11_F19", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "22.4", "f": "39", "total": "39", "code2": "POL204", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Principles of Economics", "code": "BL_ECO103_C12_F19", "chr": "12.8", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "48", "total": "48", "code2": "ECO103", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "Helped" },
+      { "status": "R", "fa": "P", "title": "Constitutional Law and Political Systems", "code": "BL_CON104_C18_F19", "chr": "13", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "40", "f": "53", "total": "53", "code2": "CON104", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Public Criminal Law 2", "code": "BL_CRI202_C9_F19", "chr": "10", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "28.8", "f": "39", "total": "39", "code2": "CRI202", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Civil Law 1", "code": "BL_CIV206_C14_F19", "chr": "16", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "33.6", "f": "50", "total": "50", "code2": "CIV206", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C11_F19", "chr": "13.6", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "32", "f": "46", "total": "46", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "S19",
+    "year": "2019",
+    "countPE": 3,
+    "courses": [
+      { "status": "R", "fa": "F", "title": "Public Criminal Law 2", "code": "BL_CRI202_C7_S19", "chr": "12", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "32", "f": "44", "total": "44", "code2": "CRI202", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Principles of Islamic Sharia", "code": "BL_IS203_C8_S19", "chr": "19", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "36.8", "f": "56", "total": "56", "code2": "IS203", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Public International Law", "code": "BL_INL102_C12_S19", "chr": "15", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "35.2", "f": "51", "total": "51", "code2": "INL102", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "Civil Law 1", "code": "BL_CIV206_C5_S19", "chr": "13.2", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "25.6", "f": "39", "total": "39", "code2": "CIV206", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "F", "title": "English 1 -Introduction to Law and Legal Systems", "code": "BL_INT205_C13_S19", "chr": "0", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "0", "f": "0", "total": "0", "code2": "INT205", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Legal Methodology", "code": "BL_MET105_C4_S19", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "41.6", "f": "56", "total": "56", "code2": "MET105", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  },
+  {
+    "term": "F18",
+    "year": "2018",
+    "countPE": 4,
+    "courses": [
+      { "status": "R", "fa": "P", "title": "Introduction to Law", "code": "BL_IL106_C8_F18", "chr": "18", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "33.6", "f": "52", "total": "52", "code2": "IL106", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Public Criminal Law1", "code": "BL_CRI101_C6_F18", "chr": "14", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "41.6", "f": "56", "total": "56", "code2": "CRI101", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "Computer Skills", "code": "BL_CDL107_C15_F18", "chr": "19.4", "e1": "-", "e2": "-", "e3": "-", "m": "-", "o": "-", "p": "41.6", "f": "61", "total": "61", "code2": "CDL107", "extra": ["1", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" },
+      { "status": "R", "fa": "P", "title": "E-learning", "code": "BL_GBS108_C17_F18", "chr": "13.6", "e1": "0", "e2": "20", "e3": "0", "m": "0", "o": "0", "p": "59.33", "f": "73", "total": "73", "code2": "GBS108", "extra": ["0", "20", "0", "0", "0", "0", "0", "80", "100"], "helped": "" }
+    ]
+  }
+]
